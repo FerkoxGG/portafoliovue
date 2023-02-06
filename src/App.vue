@@ -1,5 +1,4 @@
 <template>
-<<<<<<< HEAD
   <div id="app">
     <NavBar />
     <div class="container mt-5">
@@ -236,28 +235,4 @@ h4 {
   margin-bottom: 20px;
   padding: 20px;
 }
-=======
-  <v-app>
-    <Header />
-    <router-view></router-view>
-  </v-app>
-</template>
-
-<script>
-import Header from "@/components/Header.vue";
-
-export default {
-  name: "App",
-
-  data: () => ({
-    //
-  }),
-  components: {
-    Header,
-  },
-};
-</script>
-<style>
-@import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css";
->>>>>>> c3d883e6c7e3957a46f3f2fa46c881f890d055cf
 </style>
